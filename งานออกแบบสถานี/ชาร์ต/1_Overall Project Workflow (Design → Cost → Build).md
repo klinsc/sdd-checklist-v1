@@ -1,0 +1,15 @@
+```mermaid
+flowchart TD
+A[Project Requirements] --> B[Load Forecast & Capacity]
+B --> C[Substation Type Selection]
+C --> D[Electrical Design]
+D --> E[Civil & Structural Design]
+E --> F[Protection & Control Design]
+F --> G[SCADA & Communication]
+G --> H[Equipment Specification]
+H --> I[Cost Estimation]
+I --> J[Construction Planning]
+J --> K[Procurement]
+K --> L[Construction]
+L --> M[Testing & Commissioning]
+```

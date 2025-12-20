@@ -1,0 +1,12 @@
+```mermaid
+pie
+    title Substation Cost Distribution (Varies by Project)
+    "Power Transformer" : 30
+    "HV & MV Switchgear" : 20
+    "Civil Works" : 15
+    "Protection & Control" : 10
+    "Installation & Labor" : 10
+    "Engineering" : 5
+    "Testing & Commissioning" : 5
+    "Contingency" : 5
+```

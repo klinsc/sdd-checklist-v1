@@ -1,0 +1,17 @@
+```mermaid
+gantt
+    title 115/22kV Substation Project Schedule
+    dateFormat  YYYY-MM-DD
+    section Engineering
+    Basic Design           :a1, 2025-01-01, 30d
+    Detailed Design        :a2, after a1, 45d
+    section Procurement
+    Equipment Ordering     :b1, after a2, 60d
+    Factory Testing        :b2, after b1, 30d
+    section Construction
+    Civil Works            :c1, after b1, 60d
+    Equipment Installation :c2, after c1, 45d
+    section Commissioning
+    Testing                :d1, after c2, 20d
+    Energization           :d2, after d1, 5d
+```
